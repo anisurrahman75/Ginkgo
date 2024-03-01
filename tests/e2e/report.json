@@ -1,0 +1,844 @@
+[
+  {
+    "SuitePath": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/e2e",
+    "SuiteDescription": "e2e Suite",
+    "SuiteLabels": [
+      "test"
+    ],
+    "SuiteSucceeded": true,
+    "SuiteHasProgrammaticFocus": true,
+    "SpecialSuiteFailureReasons": null,
+    "PreRunStats": {
+      "TotalSpecs": 7,
+      "SpecsThatWillRun": 7
+    },
+    "StartTime": "2024-03-01T17:31:54.539384649+06:00",
+    "EndTime": "2024-03-01T17:31:54.545790068+06:00",
+    "RunTime": 6405409,
+    "SuiteConfig": {
+      "RandomSeed": 1709292714,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "MustPassRepeatedly": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3599509141982,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": [
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author has both names"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 22
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 23
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "can extract the author's last name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.540292199+06:00",
+        "EndTime": "2024-03-01T17:31:54.540516654+06:00",
+        "RunTime": 224455,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2024-03-01T17:31:54.540399883+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2024-03-01T17:31:54.540463153+06:00"
+            },
+            "Message": "Books",
+            "Duration": 63260,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 23
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2024-03-01T17:31:54.540469044+06:00"
+            },
+            "Message": "can extract the author's last name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 23
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2024-03-01T17:31:54.540510021+06:00"
+            },
+            "Message": "can extract the author's last name",
+            "Duration": 40977,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author has both names"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 22
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 27
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "can extract the author's first name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.540994049+06:00",
+        "EndTime": "2024-03-01T17:31:54.541092445+06:00",
+        "RunTime": 98396,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 7,
+              "Time": "2024-03-01T17:31:54.541002114+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 9,
+              "Time": "2024-03-01T17:31:54.541039755+06:00"
+            },
+            "Message": "Books",
+            "Duration": 37641,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 27
+            },
+            "TimelineLocation": {
+              "Order": 10,
+              "Time": "2024-03-01T17:31:54.541046147+06:00"
+            },
+            "Message": "can extract the author's first name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 27
+            },
+            "TimelineLocation": {
+              "Order": 12,
+              "Time": "2024-03-01T17:31:54.541086504+06:00"
+            },
+            "Message": "can extract the author's first name",
+            "Duration": 40357,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author only has one name"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 32
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 37
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "interprets the single author name as a last name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.541424735+06:00",
+        "EndTime": "2024-03-01T17:31:54.541631867+06:00",
+        "RunTime": 207132,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 13,
+              "Time": "2024-03-01T17:31:54.541442889+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 15,
+              "Time": "2024-03-01T17:31:54.541474549+06:00"
+            },
+            "Message": "Books",
+            "Duration": 31670,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 33
+            },
+            "TimelineLocation": {
+              "Order": 16,
+              "Time": "2024-03-01T17:31:54.541479228+06:00"
+            },
+            "Message": "When the author only has one name",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 33
+            },
+            "TimelineLocation": {
+              "Order": 18,
+              "Time": "2024-03-01T17:31:54.541525696+06:00"
+            },
+            "Message": "When the author only has one name",
+            "Duration": 46468,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 37
+            },
+            "TimelineLocation": {
+              "Order": 19,
+              "Time": "2024-03-01T17:31:54.541537779+06:00"
+            },
+            "Message": "interprets the single author name as a last name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 37
+            },
+            "TimelineLocation": {
+              "Order": 21,
+              "Time": "2024-03-01T17:31:54.541625525+06:00"
+            },
+            "Message": "interprets the single author name as a last name",
+            "Duration": 87746,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author only has one name"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 32
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 41
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "returns empty for the first name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.542464586+06:00",
+        "EndTime": "2024-03-01T17:31:54.542620671+06:00",
+        "RunTime": 156075,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 22,
+              "Time": "2024-03-01T17:31:54.542483131+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 24,
+              "Time": "2024-03-01T17:31:54.542522365+06:00"
+            },
+            "Message": "Books",
+            "Duration": 39234,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 33
+            },
+            "TimelineLocation": {
+              "Order": 25,
+              "Time": "2024-03-01T17:31:54.542528346+06:00"
+            },
+            "Message": "When the author only has one name",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 33
+            },
+            "TimelineLocation": {
+              "Order": 27,
+              "Time": "2024-03-01T17:31:54.54256722+06:00"
+            },
+            "Message": "When the author only has one name",
+            "Duration": 38884,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 28,
+              "Time": "2024-03-01T17:31:54.542571699+06:00"
+            },
+            "Message": "returns empty for the first name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 41
+            },
+            "TimelineLocation": {
+              "Order": 30,
+              "Time": "2024-03-01T17:31:54.542616433+06:00"
+            },
+            "Message": "returns empty for the first name",
+            "Duration": 44734,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author has a middle name"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 46
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 51
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "can extract the author's last name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.543049404+06:00",
+        "EndTime": "2024-03-01T17:31:54.543143622+06:00",
+        "RunTime": 94219,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 31,
+              "Time": "2024-03-01T17:31:54.54306342+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 33,
+              "Time": "2024-03-01T17:31:54.543088227+06:00"
+            },
+            "Message": "Books",
+            "Duration": 24807,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 34,
+              "Time": "2024-03-01T17:31:54.543092486+06:00"
+            },
+            "Message": "When the author has a middle name",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 36,
+              "Time": "2024-03-01T17:31:54.543111902+06:00"
+            },
+            "Message": "When the author has a middle name",
+            "Duration": 19416,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 51
+            },
+            "TimelineLocation": {
+              "Order": 37,
+              "Time": "2024-03-01T17:31:54.543115389+06:00"
+            },
+            "Message": "can extract the author's last name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 51
+            },
+            "TimelineLocation": {
+              "Order": 39,
+              "Time": "2024-03-01T17:31:54.543139545+06:00"
+            },
+            "Message": "can extract the author's last name",
+            "Duration": 24156,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author has a middle name"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 46
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 55
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "can extract the author's first name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.543633621+06:00",
+        "EndTime": "2024-03-01T17:31:54.543976631+06:00",
+        "RunTime": 343010,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 40,
+              "Time": "2024-03-01T17:31:54.543648439+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 42,
+              "Time": "2024-03-01T17:31:54.543671503+06:00"
+            },
+            "Message": "Books",
+            "Duration": 23064,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 43,
+              "Time": "2024-03-01T17:31:54.543675681+06:00"
+            },
+            "Message": "When the author has a middle name",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 47
+            },
+            "TimelineLocation": {
+              "Order": 45,
+              "Time": "2024-03-01T17:31:54.543692653+06:00"
+            },
+            "Message": "When the author has a middle name",
+            "Duration": 16972,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 55
+            },
+            "TimelineLocation": {
+              "Order": 46,
+              "Time": "2024-03-01T17:31:54.543696069+06:00"
+            },
+            "Message": "can extract the author's first name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "By",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 56
+            },
+            "TimelineLocation": {
+              "Order": 47,
+              "Time": "2024-03-01T17:31:54.5437333+06:00"
+            },
+            "Message": "Victor"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 55
+            },
+            "TimelineLocation": {
+              "Order": 49,
+              "Time": "2024-03-01T17:31:54.543971802+06:00"
+            },
+            "Message": "can extract the author's first name",
+            "Duration": 275733,
+            "NodeType": "It"
+          }
+        ]
+      },
+      {
+        "ContainerHierarchyTexts": [
+          "Books",
+          "Extracting the author's first and last name",
+          "When the author has no name"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 9
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 21
+          },
+          {
+            "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+            "LineNumber": 61
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+          "LineNumber": 62
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "should not be a valid book and returns empty for first and last name",
+        "State": "passed",
+        "StartTime": "2024-03-01T17:31:54.545548871+06:00",
+        "EndTime": "2024-03-01T17:31:54.545641867+06:00",
+        "RunTime": 92996,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 50,
+              "Time": "2024-03-01T17:31:54.545561705+06:00"
+            },
+            "Message": "Books",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 12
+            },
+            "TimelineLocation": {
+              "Order": 52,
+              "Time": "2024-03-01T17:31:54.545607362+06:00"
+            },
+            "Message": "Books",
+            "Duration": 45667,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 62
+            },
+            "TimelineLocation": {
+              "Order": 53,
+              "Time": "2024-03-01T17:31:54.545613423+06:00"
+            },
+            "Message": "should not be a valid book and returns empty for first and last name",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "/home/anisur/go/src/github.com/anisurrahman75/ginkgo/tests/example/hierarchical.go",
+              "LineNumber": 62
+            },
+            "TimelineLocation": {
+              "Order": 55,
+              "Time": "2024-03-01T17:31:54.545637208+06:00"
+            },
+            "Message": "should not be a valid book and returns empty for first and last name",
+            "Duration": 23775,
+            "NodeType": "It"
+          }
+        ]
+      }
+    ]
+  }
+]
